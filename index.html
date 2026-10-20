@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jay Singh | Portfolio</title>
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">JAY<span>SINGH</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="menu-btn">☰</button>
+            <button id="theme-btn">🌙</button>
+
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Jay Singh</span></h1>
+
+            <h2>
+                I'm a <span id="typing"></span>
+            </h2>
+
+            <p class="description">
+                BCA student passionate about Web Development,
+                Programming and creating modern websites.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-box">
+
+            <div class="profile-circle">
+
+                <!-- Apni image ka naam yahan rakho -->
+                <img src="jay.jpg" alt="Jay Singh">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+            About <span>Me</span>
+        </h2>
+
+        <div class="about-box">
+
+            <h3>BCA Student & Web Developer</h3>
+
+            <p>
+                Hello! I'm Jay Singh, a BCA student interested in
+                Web Development and Programming.
+            </p>
+
+            <p>
+                I enjoy learning new technologies and creating
+                useful and modern websites using HTML, CSS,
+                JavaScript and C++.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">
+            My <span>Skills</span>
+        </h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>90%</p>
+                <div class="progress">
+                    <div class="html"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>85%</p>
+                <div class="progress">
+                    <div class="css"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>70%</p>
+                <div class="progress">
+                    <div class="javascript"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>C++</h3>
+                <p>65%</p>
+                <div class="progress">
+                    <div class="cpp"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">
+            My <span>Projects</span>
+        </h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website
+                    created using HTML, CSS and JavaScript.
+                </p>
+
+                <button>View Project</button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A simple calculator application created
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <button>View Project</button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>School Website</h3>
+
+                <p>
+                    A modern responsive school website with
+                    different sections and interactive elements.
+                </p>
+
+                <button>View Project</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="section">
+
+        <h2 class="section-title">
+            My <span>Education</span>
+        </h2>
+
+        <div class="education-container">
+
+            <div class="education-card">
+
+                <h3>BCA</h3>
+
+                <p>
+                    Bachelor of Computer Applications
+                </p>
+
+                <span>Currently Pursuing</span>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>Class 12</h3>
+
+                <p>CBSE</p>
+
+                <span>Science Stream</span>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>ADCA</h3>
+
+                <p>
+                    Advanced Diploma in Computer Applications
+                </p>
+
+                <span>
+                    Lakshya Computer Academy,
+                    Lalganj, Azamgarh
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+
+        <h2 class="section-title">
+            Contact <span>Me</span>
+        </h2>
+
+        <form id="contact-form">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Jay Singh | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
